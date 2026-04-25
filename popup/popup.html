@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DefameWatch</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <header class="popup-header">
+      <h1>DefameWatch</h1>
+      <p class="subtitle">Google Maps Review Transparency</p>
+    </header>
+
+    <section class="stats" id="stats">
+      <div class="stat-card">
+        <span class="stat-value" id="places-count">—</span>
+        <span class="stat-label">Places visited</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="flagged-count">—</span>
+        <span class="stat-label">Flagged</span>
+      </div>
+    </section>
+
+    <section class="place-list" id="place-list">
+      <div class="list-header">Recent visits</div>
+      <div id="places-body">
+        <p class="empty-state">No places visited yet.<br>Open Google Maps and visit a place page.</p>
+      </div>
+    </section>
+
+    <footer class="popup-footer">
+      <button id="clear-btn" class="danger-btn">Clear history</button>
+      <span class="version">v0.1.0</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

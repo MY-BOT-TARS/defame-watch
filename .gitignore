@@ -1,0 +1,22 @@
+# Chrome Extension
+*.crx
+*.pem
+
+# macOS
+.DS_Store
+Icon?
+Icon\r
+
+# Node (if you use build tools later)
+node_modules/
+dist/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+Thumbs.db
